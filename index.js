@@ -125,3 +125,32 @@ const questions = [
     },
 ];
 
+const writeToFile = (fileName, data) => {
+    return new Promise ((resolve, reject) => {
+        fs.writeFile(fileName, data, err => {
+            if (err) {
+                reject(err);
+                return;
+            }
+            resolve({
+                ok: true,
+                message: 'File created!'
+            });
+        });
+    });
+};
+
+function init() {
+    return inquirer.prompt(questions);
+};
+
+init()
+    .then(data => {
+        return generateMarkdown(data);
+    })
+    .then(generateMarkdown => {
+        return writeToFile('./testMe/README.md', generateMarkdown);
+    })
+    .catch(err => {
+        console.log(err);
+    });

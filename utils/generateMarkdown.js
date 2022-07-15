@@ -1,9 +1,16 @@
+function renderLicenseSection(license) {
+    if (license === 'N/a') {
+        return '';
+    }
+    return `${license}`;
+};
+
+
 module.exports = data => {
     const {license} = data;
     console.log(data);
     return `
 # ${data.title}
-${createBadge(license)}
 ## Description
 ${data.description}
 ## Table of Contents
