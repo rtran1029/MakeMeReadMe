@@ -19,8 +19,8 @@ ${data.description}
 ## Table of Contents
 * [Installation](#installation)
 * [License](#license)
-* [Credits](#credits)
 * [Tests](#tests)
+* [Credits](#credits)
 * [Questions](#questions)
 
 ---

@@ -1,7 +1,7 @@
 
 # MakeMeReadMe
 ## Description
-This app provides a quick and easy way to creast professional readme files that can be used for future projects
+This app provides a quick and easy way to create professional readme files that can be used for future projects. This solves the problem for developers who tend to skimp on the ReadMe portion on their projects. It takes the mundane task of creating a readme, and turns it into an interactive and adaptive function.
 
 ---
 
@@ -16,15 +16,15 @@ This app provides a quick and easy way to creast professional readme files that 
 ---
 
 ## Installation
-NPM must be initalized and inquirer must be installed to use this app
+In order to run this program you must have NPM initalized on your machine and also have Inquier installed. Once those criteria are met, simply navigate to this file on a terminal and type "node index.js"
 ## Usage
 ![Screenshot](./img/MakeMeReadMeSnapshot.JPG?raw=true "Screenshot")
 ## License
 MIT License
 ## Tests
-n/a
+Jest
 ## Credits
-n/a
+GT-Bootcamp instructors
 
 ---
 
