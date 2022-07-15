@@ -49,7 +49,7 @@ const questions = [
             if (creditsInput) {
                 return true;
             } else {
-                console.log('Please give credit where creidt is due');
+                console.log('Please give credit where credit is due');
                 return false;
             }
         }
