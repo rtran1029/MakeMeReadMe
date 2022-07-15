@@ -11,7 +11,7 @@ const questions = [
             if (titleInput) {
                 return true;
             } else {
-                console.log('every project needs a name');
+                console.log('every project needs a name... please enter one');
                 return false;
             }
         }
@@ -43,26 +43,13 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'usage',
-        message: 'Enter examples of usage.',
-        validate: usageInput => {
-            if (usageInput) {
+        name: 'credits',
+        message: 'List any collaborators or third party assets',
+        validate: creditsInput => {
+            if (creditsInput) {
                 return true;
             } else {
-                console.log('Please enter how the app will be used');
-                return false;
-            }
-        }
-    },
-    {
-        type: 'input',
-        name: 'contribution',
-        message: 'Enter guidelines for how you would like others to contribute to the application.',
-        validate: contributionInput => {
-            if (contributionInput) {
-                return true;
-            } else {
-                console.log('Please enter guidelines for future contribution.');
+                console.log('Please give credit where creidt is due');
                 return false;
             }
         }
@@ -70,7 +57,7 @@ const questions = [
     {
         type: 'input',
         name: 'tests',
-        message: 'Enter tests written for your application, providing examples on how to run them. If not applicable, enter "N/a".',
+        message: 'Enter tests written for your application. If not applicable, enter "N/a".',
         validate: testsInput => {
             if (testsInput) {
               return true;

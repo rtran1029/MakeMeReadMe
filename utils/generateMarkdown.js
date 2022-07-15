@@ -13,24 +13,30 @@ module.exports = data => {
 # ${data.title}
 ## Description
 ${data.description}
+
+---
+
 ## Table of Contents
 * [Installation](#installation)
-* [Usage](#usage)
 * [License](#license)
-* [Contributing](#contributing)
+* [Credits](#credits)
 * [Tests](#tests)
 * [Questions](#questions)
+
+---
+
 ## Installation
 ${data.installation}
-## Usage
-${data.usage}
 ## License
 ${renderLicenseSection(license)}
-## Contributing
-${data.contribution}
 ## Tests
 ${data.tests}
-## Questions
+## Credits
+${data.credits}
+
+---
+
+## Contact Info
 Contact me: <br/>
 [GitHub](https://github.com/${data.username})
 <${data.email}>

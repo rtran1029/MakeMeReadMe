@@ -1,25 +1,31 @@
 
-# test2
+# MakeMeReadMe
 ## Description
-test2
+This app provides a quick and easy way to creast professional readme files that can be used for future projects
+
+---
+
 ## Table of Contents
 * [Installation](#installation)
-* [Usage](#usage)
 * [License](#license)
-* [Contributing](#contributing)
 * [Tests](#tests)
-* [Questions](#questions)
+* [Credits](#credits)
+* [Contact_Info](#contact_info)
+
+---
+
 ## Installation
-test2
-## Usage
-test2
+NPM must be initalized and inquirer must be installed to use this app
 ## License
-BSD 2-Clause "Simplified"
-## Contributing
-test2
+MIT License
 ## Tests
-test2
-## Questions
+n/a
+## Credits
+n/a
+
+---
+
+## Contact Info
 Contact me: <br/>
-[GitHub](https://github.com/test2)
-<test2>
+[GitHub](https://github.com/rtran1029)
+<richardtran1029@gmail.com>
